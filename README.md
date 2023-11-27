@@ -1,4 +1,8 @@
 # UZU COMPANY
 
-Repositório para documentações e arquivos sobre o site para portfólio próprio da loja de tênis e streetwear UZU COMPANY
+Repositório para a hospedagem do site da marca "UZU COMPANY"
+
+Apenas fins educativos e portfólio
+
+
 https://www.instagram.com/uzucompany/?img_index=2
