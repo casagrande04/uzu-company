@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital@0;1&display=swap');
+
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+body {
+   overflow-x: hidden;
+   max-width: 2160px;
+}
+
+
+
+#nav {
+   position: absolute;
+   left: 0px;
+   height: 40px;
+   background-color: rgb(44, 44, 44);
+   width: 100%;
+   text-align: center;
+}
+
+#nav ul {
+   margin: 0;
+   padding: 0;
+   display: inline-block;
+}
+
+.titulo {
+   color: white;
+   font-family: archivo narrow;
+   font-weight: 400;
+   font-size: 2.5rem;
+   padding: 20px;
+}
+
+.descricao {
+   color: white;
+   font-family: archivo narrow;
+   font-weight: 400;
+   font-size: 1.5rem;
+}
+
+.sombra {
+   box-shadow: black 0px 0px 15px;
+   border: 1px solid rgba(255, 255, 255, 0);
+   border-radius: 10px;
+   margin: 15px;
+}
+
+.texto {
+   color: black;
+   font-family: archivo narrow;
+   font-size: 1.4rem;
+   line-height: 40px;
+}
+
+.destaque {
+   border-radius: 0px 5px 5px 0px;
+}
+
+.botao {
+   background-color: rgb(175, 93, 107);
+   border-radius: 10px;
+   border: rgb(226, 140, 154);
+   padding: 5px;
+   font-family: archivo narrow;
+   font-size: 1rem;
+   color: white;
+   width: 130px;
+}
+
+.img-container img {
+   -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+}
+
+.img-container:hover img {
+   -webkit-transform: scale(1.1);
+   transform: scale(1.05);
+}
+
+/* Para telas menores, ocultar o conteúdo para desktop */
+@media (min-width: 768px) {
+   .conteudo-mobile {
+      display: none;
+   }
+
+   .navbar-mobile {
+      display: none;
+   }
+
+   .fundo {
+      background-image: url(/img/fundoUZU.png);
+      background-repeat: no-repeat;
+      width: 100%;
+   }
+}
+
+/* Para telas maiores, ocultar o conteúdo para mobile */
+@media (max-width: 767px) {
+   .conteudo-desktop {
+      display: none;
+   }
+
+   .navbar-desktop {
+      display: none;
+   }
+
+   .fundo {
+      background-image: url(/img/fundoUZUmobile.png);
+      background-repeat: no-repeat;
+      width: 100%;
+   }
+
+   .destaque {
+      border-radius: 0px 0px 5px 5px;
+      border: transparent;
+   }
+}
