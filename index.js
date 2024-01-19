@@ -22,6 +22,6 @@ function trocarCSS() {
         img.setAttribute('src', '/img/cdg-light.png');
 
         var img = document.querySelector("#mode");
-        img.setAttribute('src', '/img/lightmode.png');
+        img.setAttribute('src', 'https://github.com/casagrande04/uzu-company/blob/main/img/lightmode.png');
     }
 }
