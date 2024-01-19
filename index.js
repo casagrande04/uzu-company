@@ -9,7 +9,7 @@ function trocarCSS() {
         estilo.href = '/style/style.css';
         estiloAtual = 2;
         // trocar imagem claro / escuro
-        var img = document.querySelector("#cdg");
+        var img = document.querySelector("#cdg"); 
         img.setAttribute('src', '../img/cdg.png');
 
         var img = document.querySelector("#mode");
