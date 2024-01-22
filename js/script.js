@@ -1,12 +1,12 @@
 //LIGHT MODE/ DARK MODE
-  var estiloAtual = 1;
+/*   var estiloAtual = 1;
 
 function trocarCSS() {
     var estilo = document.getElementById('estilo');
 
     // Troca entre os estilos ao clicar no botão
     if (estiloAtual === 1) {
-        estilo.href = '../uzu-company/style/style.css';
+        estilo.href = '../style/style.css';
         estiloAtual = 2;
         // trocar imagem claro / escuro
         var img = document.querySelector("#cdg"); 
@@ -15,14 +15,23 @@ function trocarCSS() {
         var img = document.querySelector("#mode");
         img.setAttribute('src', '../img/darkmode.png');
     } else {
-        estilo.href = '../uzu-company/style/lightmode.css';
+        estilo.href = '../style/lightmode.css';
         estiloAtual = 1;
         // trocar imagem claro / escuro
         var img = document.querySelector("#cdg");
-        img.setAttribute('src', '../uzu-company/img/cdg-light.png');
+        img.setAttribute('src', '../img/cdg-light.png');
 
         var img = document.querySelector("#mode");
         img.setAttribute('src', '../img/lightmode.png');
     }
-} 
+}  */
 
+function trocarCSS() {
+    var estilo = document.getElementById('estilo');
+    
+    if (estilo.getAttribute('href') === '/style/style.css') {
+        estilo.setAttribute('href', '/style/lightmode.css');
+    } else {
+        estilo.setAttribute('href', '/style/style.css');
+    }
+}
