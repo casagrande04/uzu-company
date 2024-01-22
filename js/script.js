@@ -31,7 +31,15 @@ function trocarCSS() {
 
     if (estilo.getAttribute('href') === 'style/style.css') {
         estilo.setAttribute('href', 'style/lightmode.css');
+
+        //trocar imagem
+        var img = document.querySelector("#mode");
+        img.setAttribute('src', '../img/darkmode.png');
     } else {
         estilo.setAttribute('href', 'style/style.css');
+
+        //trocar imagem
+        var img = document.querySelector("#mode");
+        img.setAttribute('src', '../img/lightmode.png');
     }
 }
