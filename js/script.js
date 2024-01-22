@@ -32,7 +32,6 @@ function trocarCSS() {
     if (estilo.getAttribute('href') === '/style/style.css') {
         estilo.setAttribute('href', '/style/lightmode.css');
     } else {
-        (estilo.getAttribute('href') === '/style/style.css')
         estilo.setAttribute('href', '/style/style.css');
     }
 }
