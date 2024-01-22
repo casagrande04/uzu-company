@@ -31,15 +31,17 @@ function trocarCSS() {
 
     if (estilo.getAttribute('href') === 'style/style.css') {
         estilo.setAttribute('href', 'style/lightmode.css');
-
-        //trocar imagem
-        var img = document.querySelector("#mode");
-        img.setAttribute('src', '../img/darkmode.png');
     } else {
         estilo.setAttribute('href', 'style/style.css');
+    }
+}
 
-        //trocar imagem
-        var img = document.querySelector("#mode");
-        img.setAttribute('src', '../img/lightmode.png');
+function trocarCSS() {
+    var lampada = document.getElementById('lampada');
+
+    if (lampada.getAttribute('href') === 'img/darkmode.png') {
+        lampada.setAttribute('href', 'img/lightmode.png');
+    } else {
+        estilo.setAttribute('href', 'img/darkmode.png');
     }
 }
