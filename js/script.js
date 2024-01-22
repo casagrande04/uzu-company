@@ -35,13 +35,3 @@ function trocarCSS() {
         estilo.setAttribute('href', 'style/style.css');
     }
 }
-
-function trocarCSS() {
-    var lampada = document.getElementById('lampada');
-
-    if (lampada.getAttribute('href') === 'img/darkmode.png') {
-        lampada.setAttribute('href', 'img/lightmode.png');
-    } else {
-        lampada.setAttribute('href', 'img/darkmode.png');
-    }
-}
