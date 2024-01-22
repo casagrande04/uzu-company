@@ -1,5 +1,5 @@
 //LIGHT MODE/ DARK MODE
-/*   var estiloAtual = 1;
+var estiloAtual = 1;
 
 function trocarCSS() {
     var estilo = document.getElementById('estilo');
@@ -9,7 +9,7 @@ function trocarCSS() {
         estilo.href = '../style/style.css';
         estiloAtual = 2;
         // trocar imagem claro / escuro
-        var img = document.querySelector("#cdg"); 
+        var img = document.querySelector("#cdg");
         img.setAttribute('src', '../img/cdg.png');
 
         var img = document.querySelector("#mode");
@@ -24,9 +24,9 @@ function trocarCSS() {
         var img = document.querySelector("#mode");
         img.setAttribute('src', '../img/lightmode.png');
     }
-}  */
+}
 
-function trocarCSS() {
+/* function trocarCSS() {
     var estilo = document.getElementById('estilo');
     
     if (estilo.getAttribute('href') === '/style/style.css') {
@@ -34,4 +34,4 @@ function trocarCSS() {
     } else {
         estilo.setAttribute('href', '/style/style.css');
     }
-}
+} */
