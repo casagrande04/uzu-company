@@ -1,5 +1,5 @@
 //LIGHT MODE/ DARK MODE
-var estiloAtual = 1;
+  var estiloAtual = 1;
 
 function trocarCSS() {
     var estilo = document.getElementById('estilo');
@@ -24,4 +24,5 @@ function trocarCSS() {
         var img = document.querySelector("#mode");
         img.setAttribute('src', '../img/lightmode.png');
     }
-}
+} 
+
