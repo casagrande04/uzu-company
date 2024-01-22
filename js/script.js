@@ -42,6 +42,6 @@ function trocarCSS() {
     if (lampada.getAttribute('href') === 'img/darkmode.png') {
         lampada.setAttribute('href', 'img/lightmode.png');
     } else {
-        estilo.setAttribute('href', 'img/darkmode.png');
+        lampada.setAttribute('href', 'img/darkmode.png');
     }
 }
