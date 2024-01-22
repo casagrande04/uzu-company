@@ -29,9 +29,9 @@ function trocarCSS() {
 function trocarCSS() {
     var estilo = document.getElementById('estilo');
 
-    if (estilo.getAttribute('href') === '/style/style.css') {
-        estilo.setAttribute('href', '/style/lightmode.css');
+    if (estilo.getAttribute('href') === 'style/style.css') {
+        estilo.setAttribute('href', 'style/lightmode.css');
     } else {
-        estilo.setAttribute('href', '/style/style.css');
+        estilo.setAttribute('href', 'style/style.css');
     }
 }
