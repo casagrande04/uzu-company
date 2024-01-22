@@ -1,5 +1,5 @@
 //LIGHT MODE/ DARK MODE
-var estiloAtual = 1;
+/* var estiloAtual = 1;
 
 function trocarCSS() {
     var estilo = document.getElementById('estilo');
@@ -24,14 +24,14 @@ function trocarCSS() {
         var img = document.querySelector("#mode");
         img.setAttribute('src', '../img/lightmode.png');
     }
-}
+} */
 
-/* function trocarCSS() {
+function trocarCSS() {
     var estilo = document.getElementById('estilo');
-    
+
     if (estilo.getAttribute('href') === '/style/style.css') {
         estilo.setAttribute('href', '/style/lightmode.css');
     } else {
         estilo.setAttribute('href', '/style/style.css');
     }
-} */
+}
