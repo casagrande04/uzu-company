@@ -197,7 +197,7 @@ input:checked+.slider:before {
 }
 
 .sobre-fundo{
-   background-image: url(/img/sobre-fundo.png);
+   background-image: url(../img/sobre-fundo.png);
    background-repeat: no-repeat;
    height: 100%;
    width: 100%;
