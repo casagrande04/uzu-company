@@ -33,25 +33,25 @@ function trocarCSS() {
         estilo.setAttribute('href', 'style/lightmode.css');
 
         // trocar imagem claro / escuro
-        var img = document.querySelector("#cdg");
+/*         var img = document.querySelector("#cdg");
         img.setAttribute('src', '../img/cdg-light.png');
 
         var img = document.querySelector("#krueger");
         img.setAttribute('src', '../img/krueger-light.png');
 
         var img = document.querySelector("#jordan4");
-        img.setAttribute('src', '../img/jordan4PG-light.png');
+        img.setAttribute('src', '../img/jordan4PG-light.png'); */
     } else {
         estilo.setAttribute('href', 'style/style.css');
 
         // trocar imagem claro / escuro
-        var img = document.querySelector("#cdg");
+/*         var img = document.querySelector("#cdg");
         img.setAttribute('src', '../img/cdg.png');
 
         var img = document.querySelector("#krueger");
         img.setAttribute('src', '../img/krueger.png');
 
         var img = document.querySelector("#jordan4");
-        img.setAttribute('src', '../img/jordan4PG.png');
+        img.setAttribute('src', '../img/jordan4PG.png'); */
     }
 }
