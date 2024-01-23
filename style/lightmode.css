@@ -95,6 +95,7 @@ body {
     background-color: rgb(224, 224, 224);
 }
 
+
 .barra2 {
     color: black !important;
     font-family: archivo narrow;
@@ -133,7 +134,8 @@ body {
 }
 
 .lista:hover {
-    color:rgb(24, 24, 24)!important;
+    color:rgb(255, 255, 255)!important;
+    background-color: #242424!important;
 }
 
 .sombra {
@@ -195,7 +197,20 @@ body {
     filter: invert(100%);
 }
 
-
+.sobre-fundo{
+    background-image: url(/img/sobre-fundo.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+ }
+ 
+ a:link { 
+    text-decoration: none; 
+  } 
+  a:visited { 
+    text-decoration: none;
+    color: white;
+  } 
 
 /* Para telas menores, ocultar o conteúdo para desktop */
 @media (min-width: 768px) {
@@ -216,8 +231,15 @@ body {
 /* Para telas maiores, ocultar o conteúdo para mobile */
 @media (max-width: 767px) {
 
-    .barra{
-        height: 330px;
+    .sobre-fundo{
+        background-image: url(/img/sobre-fundoMobile.png);
+        background-repeat: no-repeat;
+        height: 100%;
+        width: 100%;
+     }
+  
+     .barra-sobre {
+        background-color: rgb(255, 255, 255)!important;
      }
     .conteudo-desktop {
         display: none;
